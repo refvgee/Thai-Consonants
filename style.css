@@ -11,6 +11,7 @@ button {
     border: none;
     outline: none;
     cursor: pointer;
+    background-color: transparent;
 }
 #main-card {
     width: 400px;
@@ -30,7 +31,7 @@ button {
 #startBtn {
     background-image: url('icon/start.png');
     background-size: 100px 100px;
-    background-color: #ffffff;
+    background-color: transparent;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -44,7 +45,7 @@ button {
 #audioBtn {
     background-image: url('icon/audio.png');
     background-size: 80px 80px;
-    background-color: #ffffff;
+    background-color: transparent;
     position: relative;
     transform: translate(-50%,-50%);
     left: 50%;
@@ -68,6 +69,7 @@ button {
     display:flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color: transparent;
 }
 #streakCon {
     font-size: 40px;
